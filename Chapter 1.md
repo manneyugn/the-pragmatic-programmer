@@ -93,3 +93,108 @@ Hoặc bạn cần thêm tài nguyên để có thể hoàn thành được nhi�
 - Khi bạn nói "Tôi không biết" hãy luôn kèm theo "Tôi sẽ tìm hiểu". Đây là một cách nhận rằng bạn không biết nhưng vẫn nhận trách nhiệm cho nó
 
 
+## Topic 3: Entropy của phần mềm
+
+Trong khi việc phát triển phần mềm không chịu sự ảnh hưởng của hầu hết các quy tắc vật lý, sự tăng của entropy lại có tác động vô cùng mạnh. Entropy là một khái niệm vật lý nói về sự hỗn loạn trong một hệ thống. Thật không may các luật nhiệt động lực học chắc chắn rằng lượng entropy trong vũ trụ có xu hướng tăng về cực đại. Khi sự hỗn loạn tăng trong phần mềm, chúng ta gọi đấy là "Xói mòn phần mềm." Có người gọi nó bằng cái tên lạc quan hơn là "Nợ kỹ thuật" với ngụ ý rằng họ sẽ trả nó vào ngày nào đấy. Và khả năng cao là họ sẽ không trả.
+
+Cho dù cái tên là gì, cả nợ và xói mòn đều có thể lây lan một cách không kiểm soát.
+
+Có rất nhiều nguyên nhân dẫn đến điều này. Nhưng điều quan trọng nhất dường như là do tâm lý, hoặc văn hóa tại khi làm dự án. Kể cả bạn là đội quân một người, tâm lý trong dự án của bạn rất mong manh. Dù cho có kế hoạch tốt nhất, những con người giỏi nhất, dự án nào cũng sẽ xuất hiện nhưng lỗ hổng trong vòng đời của mình. Thế nhưng có những dự án đã vượt qua muôn vàn khó khăn và chiến thắng xu hướng hỗn loạn tự nhiên và trở nên thành công.
+
+Điểm khác biệt là gì ?
+
+Ở nội thành, có những tòa nhà vô cùng sạch sẽ và đẹp đẽ, nhưng có có nhưng nơi cũ nát xập xệ. Tải sao? Các nhà nghiên cứu trong lĩnh vực tội phạm và suy thoái đô thị đã khám phá ra một cơ chế đã biến một tòa nhà sạch sẽ, nguyên vẹn nhanh chóng biến thành 1 tòa nhà cũ bị bỏ hoang.
+
+Một chiếc cửa sổ bị vỡ.
+
+Một chiếc cửa sổ bị vỡ, không được sửa chữa trong một khoảng thòi gian, đem đến cảm giác bị bỏ hoang cho cư dân trong tòa nhà - một cảm giác đem đến sự bất cần. Tiếp theo là một chiếc cửa sổ nữa bị vỡ. Mọi người xả rác khắp nơi. Graffiti xuất hiện. Sau nó là các hỏng hóc nghiêm trọng. Trong một thời gian vô cùng ngắn, thiệt hại của tòa nhà vượt quá mong muốn sửa chữa của chủ nhà, và nó bắt đầu bị bỏ hoang hẳn.
+
+Tại sao lại có sự khác biệt như thế? Tâm lý học cho rằng, sự vô vọng có tính truyền nhiễm. Như là virus cúm mùa. Mặc kệ một hư hỏng nhỏ làm rấy lên ý nghĩ rằng có thể chả có gì có thể sửa đựo, rằng không ai quan tâm cả, mọi thứ đã chấm hết; tất cả các suy nghĩ tiêu cực tăng dần trong các thành viên trong đội, tạo nên một vòng xoáy luẩn quẩn.
+
+TIP 5: Đừng sống với cả cửa sổ vỡ
+
+Đừng để "chiếc cửa sổ vỡ" (thiết kế tệ, quyết định sai lầm hoặc code lởm) không được sửa chữa. Hãy sửa ngay khi nó được phát hiện. Nếu không có đủ thời gian sửa nó ngay lập tức, hãy để kế hoạch cho nó. Có thể tạm thời comment đi đống code đấy, hoặc hiển thị một thông báo "Not implemented", hoặc thay thế tạm thời bằng dummy data. Hãy làm gì đó để ngăn chặn nó và cho thấy bạn vẫn đang kiểm soát được tình hình.
+
+Chúng tôi đã thấy những hệ thống sạch sẽ, hoạt động tốt xuống cấp ngay khi cửa sổ bắt đầu vỡ. Có nhiều nguyên nhân khiến phầm mềm xói mòn, và chúng ta có thể gặp nó ở một chỗ nào đấy, nhưng sự thờ ơ đẩy nhanh quá trình này hơn tất cả mọi thứ.
+
+Bạn có thể nghĩ là, không ai có thời gian đi dọn tất cả những mảnh vỡ trong một dự án. Nếu thế, hãy kiếm 1 cái thùng rác, hoặc đi sang khu khác. Đừng để cho entrophy chiến thắng.
+
+#### Đầu tiên, Đừng làm gì ngu ngốc
+
+Andy từng quen với 1 người giàu vcl. Nhà ông này to khổng lồ, chất đầy những cổ vật quý giá, tác phẩm nghệ thuật, vân vân. Một ngày, một tấm thảm thêu được treo hơi gần bếp lửa 1 tí và bắt lửa. Bộ phận chữa cháy lao đến ngay lập tức và cứu lấy căn nhà. Nhưng trước khi họ kéo mấy cái ống vừa to vừa dài vào căn nhà, họ dừng lại - ngọn lửa quần cuộn - để quấn tấm thảm giữa cửa trước và nguồn lửa.
+
+Họ không muốn làm hỏng tấm thảm đó.
+
+Dù điều đấy nghe hơi khó khăn. Chắc chắn nhiệm vụ quan trọng nhất của bộ phận chữa cháy là dập lửa, bảo vệ tài sản có thể được ưu tiên sau. Nhưng chắc chắn khi họ đã đánh giá được tình hình rằng họ vẫn có thể kiếm xoát được ngọn lửa, trong khi giảm tối đa thiệt hại về mặt tài sản. Với phần mềm cũng vậy: Đừng chữa lợn què thành lợn chột chỉ vì bạn đang bị bối rối. Một chiếc cửa sổ vỡ đã là quá đủ rồi.
+
+Một chiếc cửa sổ vỡ - một đoạn code kém, một quyết định sai lầm mà cả team phải chịu đựng trong cả một project - là tất cả những gì cần để thất bại. Nếu bạn làm việc trong một project có kha khá lỗi, sẽ rất dễ dàng để sa vào suy nghĩ "Code nào cũng thế thôi, mình làm theo cũng được". Nó không quan trọng nếu project vẫn chạy ổn định đến tận bây giờ. Trong thí nghiệm gốc dẫn đến "Giả thuyết cửa sổ vỡ", một chiếc xe bị bỏ hoang hàng tuần mà không ai sờ vào cả. Nhưng khi một chiếc cửa sổ bị vỡ, mọi thứ đã bị chia trác chỉ trong vài giờ ngắn ngủi.
+
+Cùng nguyên lý đấy, nếu bạn thấy một project mà code đẹp tuyệt vời - viết gọn gàng sạch sẽ, được thiết kế tốt và tinh tế - bạn sẽ cẩn thận để không làm nó rối tung lên, cũng như những người lý cứu hỏa. Kể cả dưới ngọn lửa quần cuộn (deadline, ngày realease, show demo,...) bạn không muốn trở thành người đầu tiên bày bừa và gây ra thêm khó khăn cho đồng đội
+
+Hãy tự nhủ: "Đừng làm sai gì cả"
+
+### Các topic có liên quan: 10,40,44
+
+### Thử thách
+- Hãy thắt chặt tình cảm với đồng nghiệp bằng các đi vạch lá tìm sâu. Tìm 2 hoặc 3 cửa sổ vỡ và thảo luận làm sao để sửa nó.
+- Hãy kể lại câu chuyện khi cửa số đầu tiên bị vỡ? Phản ứng của bạn ra sao? Đấy có phải là do quyết định của người khác hay là bị bắt ép từ chủ sỡ hữu, bạn có thể làm được gì không ?
+
+## Topic 4: Mầm đá và ếch luộc
+
+Ba anh lính về nhà sau cuộc chiến và rất đói. Khi họ thấy dân làng ở trước, họ phấn chấn hẳn lên vì nghĩ rằng sẽ có được một bữa ăn. Nhưng khi họ đến đó, mọi cánh cửa đều khóa, cửa sổ thì khép chặt. Sau nhiều năm chiến tranh, dân làng đang trong tình trạng thiếu lương thực, và họ tích trữ những gì mà họ có.
+
+Không nản lòng, mấy anh lính đun 1 nồi nước sôi và cẩn thận đặt 3 cục đá vào trong đó. Dân làng thì ngạc nhiên rồi ra hóng hớt.
+
+"Đây là nồi mầm đá" anh lính giải thích. "Đấy là tất cả những gì mà ông anh cho vào à?" dân làng hỏi. "Chứ còn gì lữa, nhưng mà nghe đồn có tí cà rốt thì ăn ngon hơn đấy" Dân làng chạy về nhà, quay lại với một túi cà rốt trên tay.
+
+Mấy phút sau, dân làng lại hỏi: "Ok chưa anh giai?"
+
+"Ờm" Anh lính đáp "Có tí khoai tây thì nó đậm hơn đấy". Một anh dân làng khác lại chạy về.
+
+Khoảng một tiếng sau, mấy anh lính liệt kê ngày càng nhiều thành phần có thể làm món soup ngon hơn: thịt bò, hành, muối và thảo mộc. Mỗi lần sẽ có một người khác chạy về nhà và cầm ra.
+
+Cuối cùng, khi họ có một nồi soup to, mấy anh lính bỏ mấy cục đá ra và ngồi xuống với cả làng, tận hưởng bữa ăn tử tế đầu tiên họ có trong hàng tháng trời.
+
+Có vài điều cần đuợc rút ra sau câu truyện mầm đá. Cả làng đã bị mấy anh lính lừa, bằng cách lợi dụng tính tò mò của dân làng để  lấy được đồ ăn từ họ. Nhưng quan trọng hơn, họ đã đóng vai trò như là cầu nối, đem cả làng lại với nhau để hoàn thành nồi soup, thứ mà không thế làm một mình - một kết quả tập thể. Cuối cùng mọi người đều thắng.
+
+Cho đến bây giờ, bạn cũng nên bắt trước những người lính.
+
+Bạn có thể sẽ ở trong những tình huống mà bạn biết rõ mình cần làm gì và làm sao để làm được điều đó. Cả một hệ thống như hiện ra ở trướ mắt bạn - và bạn biết rõ về nó. Nhưng việc xin phép để thay đổi mọi thứ và bạn sẽ gặp delays và những cái nhìn trống rỗng. MỌi người cần phải điền cam kết, ngân sách cần phải được thông qua, mọi thứ sẽ trở nên phức tạp hơn. Mọi người cần phải cẩn thận với những tài nguyên của mình. Điều này được gọi là "start-up fatigue"
+
+Đã đến lúc cần đến cục đá. Nghĩ đến những gì mà bạn có thể dùng được. Làm nó tử tế. Một khi bạn đã có nó, cho mọi người xem và để họ trầm trồ. Sau đó nói "nó có thể tốt hơn nếu chúng ta abcxyz". Hãy nói như kiểu nó không quan trọng lắm. Ngồi xuống và đợi họ nhờ bạn thêm tính năng mà bạn mong muốn. Sẽ dễ dàng hơn nếu tham gia vào một con đường dẫn đến thành công. Cho họ thấy được tương lai tươi sáng và họ sẽ tự tập hợp đến.
+
+TIP 6: Hãy là chất xúc tác cho thay đổi
+
+### Ở phía của dân làng
+
+Ở phía kia, câu chuyện mầm đá cũng là về sự thay đổi từ từ và liên tục. Về việc tập trung chặt chẽ. Dân làng lúc đó chỉ nghĩ về cục đá mà quên đi phần còn lại của thế giới. Chúng ta đều vậy, mỗi ngày. Mọi thứ cứ như ám ảnh chúng ta.
+
+Chúng ta đã thấy tất cả những biểu hiện. Project dần dần vuột ra khỏi tầm tay của chúng ta một cách không thể tránh khỏi. Mọi thảm họa phần mềm đều bắt đầu từ những điều quá nhỏ để có thể để ý, và mọi sự sụp đổ đều xảy ra trong vòng một ngày. Hệ thống sụp đổ từ tính năng một, các bản vá ngày một nhiều đến khi không còn gì nguyên bản. Việc tích lũy những điều nhỏ nhặt cũng thường xuyên là thứ hủy hoại đạo đức và các nhóm. 
+
+TIP 7: Luôn nhớ về bức tranh lớn
+
+Một cách thật thà - chúng ta chưa thử điều này bao giờ. Nhưng họ nói rằng nếu bạn lấy 1 con ếch và thả vào nồi nước sôi, nó sẽ nhảy ra luôn. Nhưng nếu như bạn cho nó vào 1 cái nồi nước lạnh, rồi từ từ tăng nhiệt độ lên, con ếch sẽ không để ý và ở trong nồi đến khi bị nấu chín.
+
+Hãy nhớ là vấn đề con ếch khác so với câu chuyển cửa sổ vỡ mà chúng ta đã đề cập ở trong Topic 3: Entropy của phần mềm. Trong lý thuyết về cửa sổ vỡ, mọi người mất đi ý chí chống lại entropy vì họ cảm thấy không ai quan tâm cả. Còn con ếch chỉ đơn giản là không để ý đến thay đổi.
+
+Đừng như con ếch trong truyện. Hãy luôn nhớ về mục tiêu. Liên tục xem xét những thứ xay ra xung quanh bạn, không phải những gì mà bạn đang làm.
+
+### Các mục liên quan
+Topic 1, 38
+
+### Thử thách
+
+- Khi review bản nháp cho phiên bản đầu tiên, John Lakos đã nêu lên một vấn đề: Mấy anh lính lừa dối dân làng từ từ, nhưng là bắt đầu cho một điều mới tốt hơn. Nhưng với việc từ từ lừa con ếch, bạn đang làm hại nó. Liệu thế nào là tốt thế nào là hại khi bắt đầu thay đổi? Quyết định đó là khách quan hay là chủ quan?
+- Không cần nhìn, có bao nhiêu bóng đèn đang ở trên đầu bạn bây giờ? bao nhiêu lối ra trong căn phòng? Bao nhiêu người ở trong? Có thứ gì trông có vẻ không phù hợp ở đây không? Đây là một bài tập nhận thức tình hình, một kỹ thuật được tập luyện từ hướng đạo sinh đến đặc vụ Navy SEAL. Tập thói quen nhìn và để ý mọi thứ ở quanh mình. Và làm điều tương tự với project của bạn.
+
+## Topic 5: Phần mềm đủ tốt
+
+>Striving to better, oft we mar what's well. - Shakespeare, King Lear 1.4 
+
+
+
+
+
+
+
+
