@@ -1,6 +1,6 @@
 # Chương 1: Triết lý Pragmatic
 
-Cuốn sách này là về bạn
+Cuốn sách này là về bạn Nam
 
 Về sự nghiệp của bạn, nếu nói một cách chính xác, và quan trọng hơn, Topic 1, *Nó là cuộc đợi của bạn*. Bạn sở hữu nó. Bạn là đây bởi vì bạn biết bạn có thể trả thành một lập trình viên tốt hơn và giúp người khác trở nên như vậy. Bạn có thể trở thành một lập trình viên thực dụng
 
